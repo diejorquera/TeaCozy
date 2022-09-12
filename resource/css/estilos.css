@@ -11,7 +11,7 @@ body {
     color: seashell ;
     opacity: 0.9;
     font-size: 22px;
-    /* text-align: center; */
+    text-align: center;
 }
 
 header {
@@ -47,4 +47,15 @@ header .lista li a {
 /* Estilos Hero */
 main {
     padding-top: 69px;
+}
+
+.hero {
+    height: 700px;
+    width: auto;
+    background-image: url(../images/img-mission-background.jpg);
+
+}
+
+.hero .titulo {
+    background-color: black;
 }
