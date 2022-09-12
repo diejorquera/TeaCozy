@@ -5,7 +5,6 @@
     font-family: Helvetica, sans-serif;
 }
 
-/* Estilos NavBar */
 body {
     background-color: black;
     color: seashell ;
@@ -13,6 +12,8 @@ body {
     font-size: 22px;
     text-align: center;
 }
+
+/* Estilos NavBar */
 
 header {
     display: flex;
@@ -23,6 +24,9 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
+    background-color: black;
+    padding-right: 5px;
+    
 }
 
 header .logo img {
@@ -47,19 +51,21 @@ header .lista li a {
 /* Estilos Hero */
 main {
     padding-top: 69px;
+
+
 }
 
 .hero {
     height: 700px;
-    width: auto;
+    width: 1200px;
     background-image: url(../images/img-mission-background.jpg);
-    position: relative;
+   
+    margin: 0 auto;
 
 }
 .titulo {
     width: 1200px;
-    position: absolute;
-    top: 50%;
+  
 }
 
 .hero .titulo {
