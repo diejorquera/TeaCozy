@@ -56,7 +56,7 @@ header .lista li a {
 
 /* Estilos Hero */
 main {
-    margin: 69px;
+    margin-top: 69px;
 }
 
 
@@ -94,6 +94,11 @@ main {
 .seccion-imagenes {
      width: 1000px;
      margin: 0px auto;
+     padding-bottom: 60px;
+}
+
+.titulo-imagen {
+    padding: 40px 30px 40px
 }
 .titulo-imagen h2, h4 {
     text-align: center;
@@ -107,13 +112,6 @@ main {
     display: inline-block;
     
 }
-/* .contenedor .galeria-imagen {
-    width: 1000px;
-    display: flex;
-    list-style: none;
-    justify-content: space-evenly;
-} */
-
 
  .contenedor {
     width: 1000px;
@@ -122,6 +120,57 @@ main {
  }
 
  .galeria-imagen {
-    flex: 5%;
+    flex: 25%;
     padding: 5px;
+ }
+ .galeria-imagen p {
+    padding: 10px;
+    text-align: center;
+ }
+
+ /* Sección lugares */
+
+ .lugares {
+    height: 500px;
+    background-image: url(../images/img-locations-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+ }
+.lugares .titulo-lugares {
+    text-align: center;
+    padding: 20px 30px 15px;
+}
+.cajas {
+    display: flex;
+    justify-content: center;
+}
+
+ .cajas__lugares {
+    background-color: black;
+    width: 300px;
+    margin-right: 40px;
+    text-align: center;
+ }
+
+ .cajas__lugares h3,p {
+    padding: 15px;
+ }
+
+ /* Footer */
+
+ footer {
+    text-align: center;
+    height: 200px;
+ }
+
+ footer h2, h5 {
+    padding: 15px;
+ }
+
+ .copyright {
+    text-align: left;
+    padding-left: 20px;
  }
