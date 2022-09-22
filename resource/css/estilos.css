@@ -43,6 +43,7 @@ header .logo img {
 
 header .lista {
     list-style: none;
+    padding-right: 10px;
 }
 
 header .lista li {
